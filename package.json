@@ -12,7 +12,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.12.14"
+    "express-react-views": "^0.11.0",
+    "mongoose": "^5.12.14",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",

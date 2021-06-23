@@ -9,7 +9,7 @@ export interface ILog extends Document {
 export let LogSchema: Schema = new Schema({
   projectId: {
     type: Schema.Types.String,
-    require: true,
+    required: true,
     enum: ["hr", "fintech", "mobile"],
   },
   created: {
@@ -18,7 +18,7 @@ export let LogSchema: Schema = new Schema({
   },
   data: {
     type: Schema.Types.Mixed,
-    require: true,
+    required: true,
   },
 });
 

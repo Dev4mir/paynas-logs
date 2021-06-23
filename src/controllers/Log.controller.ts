@@ -17,7 +17,7 @@ export class LogController extends BaseCrudController {
     try {
       const docs = await Log.find();
 
-      res.status(200).json({ data: docs });
+      res.status(200).render("logs", { data: docs });
     } catch (e) {
       console.error(e);
       res.status(400).end();
